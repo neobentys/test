@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=git
+project.version=6.2
+project.original.version=6.2
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=6.4.0
+project.id=0591a39f-2945-4395-87f7-a176c52a84f3
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=neobentys/test.git

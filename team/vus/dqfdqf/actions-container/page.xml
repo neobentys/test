@@ -1,0 +1,18 @@
+<http-page executeResourcesDynamically="false" name="page"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/dqfdqf/%resources%/recorded-artifacts/f9dfa71b-bd91-40c7-bde5-bdb7be437574.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f9dfa71b-bd91-40c7-bde5-bdb7be437574">
+    <embedded-action>366f7e76-5dcb-4133-9dc5-e8acf90585bc</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="http_request_" path="/" postType="1"
+    serverUid="host" slaProfileEnabled="false"
+    uid="366f7e76-5dcb-4133-9dc5-e8acf90585bc" useKeepAlive="false">
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

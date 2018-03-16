@@ -1,0 +1,47 @@
+<lg-host hostname="localhost:7100" loadWeight="1" standalone="false"
+    supportWANEmulation="false"
+    uid="de62cadf-ae94-4e64-9943-410ca7f09da9" version="6.4.0;build=20180315-1527">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="TAP-Windows Adapter V9"
+        enabled="false" isLoopBack="false" name="eth8">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:1838:2a0:80e5:5c46%eth8">
+            <ip value="fe80:0:0:0:1838:2a0:80e5:5c46%eth8"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="vmware-localhost">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) 82579LM Gigabit Network Connection"
+        enabled="false" isLoopBack="false" name="eth3">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="knossos.intranet.neotys.com">
+            <ip value="10.0.4.49"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:9930:2944:f1e2:1db9%eth3">
+            <ip value="fe80:0:0:0:9930:2944:f1e2:1db9%eth3"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Hyper-V Virtual Ethernet Adapter #2"
+        enabled="false" isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="knossos.intranet.neotys.com">
+            <ip value="10.0.75.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:ed0f:6510:41b4:69c7%eth0">
+            <ip value="fe80:0:0:0:ed0f:6510:41b4:69c7%eth0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>
